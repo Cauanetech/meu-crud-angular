@@ -1,6 +1,6 @@
 {
-    "users": [
-        { "id": 1, "name": "Cauane" },
-        { "id": 2, "name": "Estudante" }
+    "movies": [
+        { "id": 1, "title": "Senhor dos Anéis", "Genre": "Fantasia" },
+        { "id": 2, "title": "One Piece Film: Red", "Genre": "Anime" }
     ]
 }
