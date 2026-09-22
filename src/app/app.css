@@ -1,0 +1,127 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f5f8; /* Lilás bem clarinho e suave */
+  color: #4a4e69;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 650px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(154, 140, 152, 0.1);
+}
+
+h1 {
+  color: #3d3a45;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+h3 {
+  color: #8c7b8d;
+  font-size: 15px;
+  margin-top: 0;
+  letter-spacing: 0.5px;
+}
+
+.card-form {
+  background: #fcf6f5; /* Tom pastel quente e suave */
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #f2e9e4;
+}
+
+.card-form input {
+  flex: 1;
+  min-width: 150px;
+  padding: 12px 14px;
+  border: 1px solid #e3d5ca;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background: #ffffff;
+  color: #4a4e69;
+  transition: all 0.2s;
+}
+
+.card-form input:focus {
+  border-color: #b5838d;
+  box-shadow: 0 0 0 3px rgba(181, 131, 141, 0.15);
+}
+
+button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-save {
+  background-color: #a3c4bc; /* Verde menta soft */
+  color: #2f3e46;
+}
+
+.btn-cancel {
+  background-color: #d8e2dc; /* Cinzento-esverdeado soft */
+  color: #4a5759;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-item {
+  background: #ffffff;
+  border: 1px solid #f0ead2;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s;
+}
+
+.movie-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-color: #e3d5ca;
+}
+
+.movie-item small {
+  color: #9a8c98;
+  font-weight: normal;
+}
+
+.btn-edit {
+  background-color: #f4a261; /* Laranja pêssego soft */
+  color: #ffffff;
+  padding: 7px 14px;
+  margin-right: 6px;
+}
+
+.btn-delete {
+  background-color: #e5989b; /* Rosa coral soft */
+  color: #ffffff;
+  padding: 7px 14px;
+}

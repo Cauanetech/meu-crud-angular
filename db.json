@@ -1,6 +1,20 @@
 {
-    "movies": [
-        { "id": 1, "title": "Senhor dos Anéis", "Genre": "Fantasia" },
-        { "id": 2, "title": "One Piece Film: Red", "Genre": "Anime" }
-    ]
+  "movies": [
+    {
+      "id": "1",
+      "title": "Senhor dos Anéis",
+      "Genre": "Fantasia"
+    },
+    {
+      "id": "2",
+      "title": "One Piece Film: Red",
+      "Genre": "Anime"
+    },
+    {
+      "title": "Homem Aranha",
+      "Genre": "Ação",
+      "id": "dSmiRo_-8io"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
